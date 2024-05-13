@@ -1,0 +1,149 @@
+.app__header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.app__header-content{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+
+
+}
+
+.app__header-content-image{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 331px;
+    height: 255.42px;
+
+}
+
+.app__header-content-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.app__header-content-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+    width: 40%;
+   
+
+}
+
+.app__header-content-info h1{
+    font: 200;
+    color: white;
+}
+
+.app__header-content-info p{
+    font: 100;
+    color: white;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    margin:  1.5rem 0 ;
+}
+
+.app__header-content-info button{
+    padding: 0.5rem 1rem;
+    font-weight: 400;
+    background: black;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white; ;
+
+    margin-top: 20px;
+
+
+}
+.app__header-content-info button:hover{
+    background: #e83729;
+}
+
+/* .app__header-arrow{
+    margin-top: 50px;
+
+} */
+
+
+@media screen and (max-width: 2000px) {}
+@media screen and (max-width: 700px) {
+    .app__header {
+        padding: 2rem 4rem;
+        
+    }
+
+    .app__header-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .app__header-content-info{
+        width: 100%;
+    }
+
+
+    .app__header-content-info button{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .app__header-content-image,.app__header-content-image img{
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .app__header-content-info p{
+        justify-content: center;
+        display:block;
+    }
+   
+}
+@media screen and (max-width: 550px) {
+    .app__header {
+        padding: 2rem;
+    }
+
+
+    .app__header-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .app__header-content-info button{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .app__header-content-image,.app__header-content-image img{
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .app__header-content-info {
+        justify-content: center;
+        display:block;
+    }
+   
+
+}

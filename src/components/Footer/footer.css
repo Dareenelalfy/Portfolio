@@ -1,0 +1,72 @@
+app__footer {
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.footer-line {
+  border: 0.2px solid #000000; /* Set border style and color */
+  margin: 20px auto; /* Add space around the line and center it horizontally */
+  width: 100%; /* Set the width of the line */
+}
+
+.app__footer_info{
+  display: flex;
+  justify-content: space-between;
+
+}
+.social-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  margin-top: 20px;
+  justify-content: start;
+}
+
+.github-button,
+.linkedin-button {
+  display: flex;
+
+  width: 50px; /* Adjust button size as needed */
+  height: 50px; /* Adjust button size as needed */
+  border-radius: 50%; /* Make the button circular */
+  background-color: orangered; /* GitHub button color */
+  margin-right: 10px; /* Add space between buttons */
+  justify-content: center;
+  align-items: center;
+}
+
+.github-button:hover,
+.linkedin-button:hover {
+  background-color: black;
+}
+
+.app__footer_info-create{
+  display: flex;
+  align-self: center;
+  flex-direction: flex-end;
+}
+
+@media screen and (max-width: 700px) {
+  .app__footer {
+      padding: 2rem 4rem;
+      
+  }
+
+ 
+}
+@media screen and (max-width: 550px) {
+  .app__footer{
+      padding: 2rem;
+  }
+
+
+  .app__footer-info{
+      flex-direction: column;
+
+  }
+
+ 
+  }
+ 
+
