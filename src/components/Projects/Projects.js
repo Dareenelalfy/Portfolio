@@ -17,18 +17,22 @@ const Projects = () => {
       </div>
 
       <div className="app_projects-container">
+        <div className="app__projects-container-content">
         <Project
           imgUrl={gpt3}
           text="GPT3 Project"
           par="Welcome to the GPT-3 project showcase! Dive into the future of AI-powered creativity and innovation with my GPT-3 landing page."
           link="https://master--gpt3-project-modern.netlify.app/"
         />
+        </div>
+        <div className="app__projects-container-content">
         <Project
           imgUrl={gericht}
           text="Gericht Restaurant Project"
           par="Experience the artistry of food and hospitality come alive on this captivating landing page. "
           link="https://gericht-restaurant.website/"
         />
+        </div>
       </div>
     </div>
   );

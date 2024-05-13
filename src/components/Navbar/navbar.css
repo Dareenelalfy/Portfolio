@@ -47,7 +47,7 @@
   margin-right: 1rem;
 }
 
-.contact_me{
+.contact_me {
   padding: 1rem 2rem;
   font-weight: 500;
   background: #e83729;
@@ -133,6 +133,14 @@
   .app__navbar_content {
     display: none;
   }
+
+  .app__navbar-logo img {
+    display: flex;
+    justify-content: flex-start;
+    z-index: 5;
+    height: auto;
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -149,5 +157,13 @@
 
   .app__navbar-menu-links {
     display: block;
+  }
+
+  .app__navbar-logo img {
+    display: flex;
+    justify-content: flex-start;
+    z-index: 5;
+    height: auto;
+    width: auto;
   }
 }
