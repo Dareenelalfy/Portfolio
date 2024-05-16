@@ -131,9 +131,6 @@
     display: flex;
   }
 
-  .app__navbar-menu iMenu3Line{
-    display: flex;
-  }
   .app__navbar_content {
     display: none;
   }
@@ -149,7 +146,7 @@
 
 @media screen and (max-width: 400px) {
   .app__navbar {
-    padding:  2rem;
+    padding: 2rem;
   }
   .app__navbar-menu {
     display: flex;
