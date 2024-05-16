@@ -1,3 +1,4 @@
+/* General styles for the navbar */
 .app__navbar {
   display: flex;
   background-color: #fcf9f8;
@@ -30,7 +31,6 @@
 .app__navbar_content {
   display: flex;
   list-style: none;
-  display: flex;
   flex-direction: row;
   margin-left: 1rem;
   align-items: center;
@@ -97,15 +97,13 @@
   height: 100vh;
   background: #fcf9f8;
   transition: 0.5s ease;
-
-  flex-direction: column;
+  overflow: hidden;
   z-index: 5;
 }
 
 .overlay__close {
   font-size: 27px;
   cursor: pointer;
-
   position: absolute;
   top: 20px;
   right: 20px;
@@ -123,6 +121,7 @@
   .app__navbar {
     padding: 2rem 4rem;
   }
+
   .app__navbar-menu {
     display: flex;
   }
@@ -144,16 +143,13 @@
   .app__navbar {
     padding: 2rem;
   }
+
   .app__navbar-menu {
     display: flex;
   }
 
   .app__navbar_content {
     display: none;
-  }
-
-  .app__navbar-menu-links {
-    display: block;
   }
 
   .app__navbar-logo img {
